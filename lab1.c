@@ -25,7 +25,8 @@ main(){
 }
   else {
     int y = 50;
-    for(int x = 0; x<6; x++){
+    int x;
+    for(x = 0; x<6; x++){
     sleep(10);
     printf("You have %d seconds left to answer. \n", y);
     //fflush(stdout);
